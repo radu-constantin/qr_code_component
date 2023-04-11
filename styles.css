@@ -18,7 +18,7 @@ body {
 
 p {
   font-size: 15px;
-  color: lightgray;
+  color: gray;
 }
 
 .container {
@@ -33,8 +33,8 @@ p {
 
 img {
   height: 60%;
-  width: 94%;
-  margin: 10px;
+  width: 90%;
+  margin: 15px;
   border-radius: 15px;
 }
 
@@ -42,6 +42,12 @@ img {
   display: flex;
   text-align: center;
   margin: 10px 30px;
+}
+
+@media screen and (max-width: 1000px) {
+  .container {
+    width: 85%;
+  }
 }
 
 
