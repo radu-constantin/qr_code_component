@@ -21,7 +21,11 @@ p {
   color: gray;
 }
 
-.container {
+h1 {
+  font-size: 21px;
+}
+
+main {
   height: 70vh;
   width: 20vw;
   background-color: hsl(0, 0%, 100%);
